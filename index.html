@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>tic-tac-toe</title>
+</head>
+<body>
+<div class="navigator">
+  <img src="unnamed%20(1).png" alt="logo">
+  <div class="difficulty">
+    <div id="easy" class="level">Easy</div>
+    <div id="med" class="level">Medium</div>
+    <div id="une" class="level">Hard</div>
+  </div>
+</div>
+<div class="main">
+  <div class="internal">
+  <div class="scoreBoard">
+  </div>
+
+  </div>
+  <div class="ask">
+    <div class="op" id="op1">Player VS AI</div>
+    <div class="op"  id="op2">Player VS Player</div>
+    <div class="sy" id="sy1">X</div>
+    <div class="sy" id="sy2">O</div>
+  </div>
+    <div class="formPP">
+    <div class="formContent">
+      <span id="exitpp">×</span>
+      <div class="names">
+        <p><input type="text" class="name" placeholder="First player name" id="playerOne" ></p>
+        <p><input type="text" class="name" placeholder="Second player name" id="playerTwo" ></p>
+      </div>
+      <button id="submitpp">Submit</button>
+    </div>
+  </div>
+  <div class="formPA">
+    <div class="formContent">
+      <span id="exitpa">×</span>
+      <div class="names">
+        <p><input type="text" class="name" placeholder="Enter your name" id="hPlayer" ></p>
+      </div>
+      <button id="submitpa">Submit</button>
+    </div>
+  </div>
+
+  <div class="board">
+    <div class="cell" id="00"></div>
+    <div class="cell" id="01"></div>
+    <div class="cell" id="02"></div>
+    <div class="cell" id="10"></div>
+    <div class="cell" id="11"></div>
+    <div class="cell" id="12"></div>
+    <div class="cell" id="20"></div>
+    <div class="cell" id="21"></div>
+    <div class="cell" id="22"></div>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
